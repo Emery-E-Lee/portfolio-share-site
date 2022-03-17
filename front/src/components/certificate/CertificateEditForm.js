@@ -27,7 +27,6 @@ function CertificateEditForm({ currentCertificate, setIsEditing, setCertificates
 
         const res = await Api.get('certificatelist', user_id);
 
-
         const updatedCertificate = res.data;
         setCertificates(updatedCertificate);
 

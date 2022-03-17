@@ -1,4 +1,4 @@
-import { Card, Row, Button, Col } from "react-bootstrap";
+import { Card, Row, Button, Col } from "react-bootstrap"
 
 function CertificateCard({ certificate, setIsEditing, isEditable }) {
     return (

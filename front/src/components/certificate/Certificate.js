@@ -10,7 +10,7 @@ function Certificate({ certificateId, isEditable }) {
 
     useEffect(() => {
         Api.get("certificatelist", certificateId).then((res) => setCertificate(res.data));
-    }, [certificateId]);
+    }, [certificateId])
 
     return (
 
